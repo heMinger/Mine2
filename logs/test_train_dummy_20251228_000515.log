@@ -1,0 +1,4 @@
+Resumed from checkpoints/ckpt_real_20251227_213943/step_0004500.pt (last_global_step=4500)
+step=4510 loss=0.3744 photo=0.3744 sem=0.0000
+step=4520 loss=7.4154 photo=0.3792 sem=7.0363
+step=4530 loss=4.8777 photo=0.3854 sem=4.4923

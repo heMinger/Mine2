@@ -1,0 +1,11 @@
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+Resumed from checkpoints/ckpt_real_20251227_213943/step_0004500.pt (last_global_step=4500)
+step=4510 loss=0.3744 photo=0.3744 sem=0.0000
+step=4520 loss=7.4074 photo=0.3792 sem=7.0282
+step=4530 loss=4.8486 photo=0.3854 sem=4.4632

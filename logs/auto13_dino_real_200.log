@@ -1,0 +1,28 @@
+nohup: ignoring input
+Using cache found in /data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+step=0 loss=3.3664 photo=0.3707 sem=2.9957
+step=10 loss=3.3481 photo=0.3524 sem=2.9957
+step=20 loss=3.3610 photo=0.3646 sem=2.9963
+step=30 loss=3.3736 photo=0.3779 sem=2.9957
+step=40 loss=3.3299 photo=0.3341 sem=2.9957
+step=50 loss=3.4023 photo=0.4066 sem=2.9957
+step=60 loss=3.3989 photo=0.4031 sem=2.9957
+step=70 loss=3.3462 photo=0.3505 sem=2.9957
+step=80 loss=3.3403 photo=0.3445 sem=2.9957
+step=90 loss=3.3794 photo=0.3837 sem=2.9957
+step=100 loss=3.3625 photo=0.3668 sem=2.9957
+step=110 loss=3.2855 photo=0.2897 sem=2.9957
+step=120 loss=3.3319 photo=0.3362 sem=2.9957
+step=130 loss=3.3220 photo=0.3263 sem=2.9957
+step=140 loss=3.3325 photo=0.3368 sem=2.9957
+step=150 loss=3.3534 photo=0.3577 sem=2.9957
+step=160 loss=3.3399 photo=0.3441 sem=2.9957
+step=170 loss=3.3164 photo=0.3207 sem=2.9957
+step=180 loss=3.3617 photo=0.3660 sem=2.9957
+step=190 loss=3.3576 photo=0.3619 sem=2.9957

@@ -1,0 +1,20 @@
+AUTO9: long run (1000 steps, dummy DINO, unbuffered)
+Sat Dec 27 08:20:22 PM CST 2025
+step=0 loss=3.3890 photo=0.3933 sem=2.9957
+step=10 loss=3.3439 photo=0.3482 sem=2.9957
+step=20 loss=3.3682 photo=0.3732 sem=2.9951
+step=30 loss=3.3901 photo=0.3944 sem=2.9957
+step=40 loss=3.3426 photo=0.3469 sem=2.9957
+step=50 loss=3.3356 photo=0.3399 sem=2.9957
+step=60 loss=3.3856 photo=0.3898 sem=2.9958
+step=70 loss=3.3537 photo=0.3580 sem=2.9957
+step=80 loss=3.3623 photo=0.3665 sem=2.9958
+step=90 loss=3.4126 photo=0.4166 sem=2.9960
+step=100 loss=3.3688 photo=0.3731 sem=2.9957
+step=110 loss=3.3895 photo=0.3938 sem=2.9957
+step=120 loss=3.3619 photo=0.3587 sem=3.0033
+step=130 loss=3.3812 photo=0.3852 sem=2.9960
+step=140 loss=3.3512 photo=0.3555 sem=2.9957
+step=150 loss=3.3964 photo=0.4006 sem=2.9957
+step=160 loss=3.3255 photo=0.3298 sem=2.9957
+step=170 loss=3.3500 photo=0.3542 sem=2.9957

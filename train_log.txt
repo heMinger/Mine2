@@ -1,0 +1,66 @@
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Resumed from /data/lmh_data/VGM-GS-S4C-cp/step_0000800.pt (start_step=801)
+/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/site-packages/torch/utils/cpp_extension.py:1967: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+Traceback (most recent call last):
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/ff_train.py", line 387, in <module>
+    main()
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/ff_train.py", line 383, in main
+    _run_one_batch(batch[0], step=step, epoch=epoch)
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/ff_train.py", line 240, in _run_one_batch
+    init_points_world = map_init.infer_points_from_window(
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/initialize/mapanything_init.py", line 168, in infer_points_from_window
+    outputs = model.infer(
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/lmh/VGM-GS-S4C/map-anything/mapanything/models/mapanything/model.py", line 2131, in infer
+    preds = self.forward(
+  File "/home/lmh/VGM-GS-S4C/map-anything/mapanything/models/mapanything/model.py", line 1643, in forward
+    self.downstream_head(
+  File "/home/lmh/VGM-GS-S4C/map-anything/mapanything/models/mapanything/model.py", line 1396, in downstream_head
+    minibatch = self._compute_adaptive_minibatch_size()
+  File "/home/lmh/VGM-GS-S4C/map-anything/mapanything/models/mapanything/model.py", line 1309, in _compute_adaptive_minibatch_size
+    torch.cuda.empty_cache()
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt
+Loading pretrained dinov2_vitg14 from torch hub
+Loading weights from local directory
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.4600]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.4600]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.4600]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.4681]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.4681]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.4681]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.4083]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.4083]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.4083]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.3475]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.3475]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.3475]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.3568]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.3568]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.3568]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.4058]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.4058]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.4058]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.2858]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.2858]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.2858]], device='cuda:0')
+[DEBUG] View 0 metric_scaling_factor: tensor([[7.0646]], device='cuda:0')
+[DEBUG] View 1 metric_scaling_factor: tensor([[7.0646]], device='cuda:0')
+[DEBUG] View 2 metric_scaling_factor: tensor([[7.0646]], device='cuda:0')

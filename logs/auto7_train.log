@@ -1,0 +1,17 @@
+AUTO7: starting train chain (10 then 100 steps, dummy DINO)
+Sat Dec 27 08:14:33 PM CST 2025
+AUTO7: short run (10 steps)
+step=0 loss=3.3572 photo=0.3615 sem=2.9957
+AUTO7: training run (100 steps)
+step=0 loss=3.3496 photo=0.3539 sem=2.9957
+step=10 loss=3.3578 photo=0.3621 sem=2.9957
+step=20 loss=3.4430 photo=0.4473 sem=2.9957
+step=30 loss=3.4421 photo=0.4461 sem=2.9960
+step=40 loss=3.3538 photo=0.3581 sem=2.9957
+step=50 loss=3.3327 photo=0.3370 sem=2.9957
+step=60 loss=3.3781 photo=0.3824 sem=2.9957
+step=70 loss=3.3044 photo=0.3086 sem=2.9957
+step=80 loss=3.3359 photo=0.3401 sem=2.9957
+step=90 loss=3.4138 photo=0.4181 sem=2.9957
+AUTO7: DONE
+Sat Dec 27 08:14:49 PM CST 2025

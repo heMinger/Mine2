@@ -1,0 +1,4 @@
+AUTO6: starting smoke/train chain (glm+ninja)
+AUTO6: using conda include for glm headers
+Sat Dec 27 08:11:42 PM CST 2025
+AUTO6: smoke test (1 step, dummy DINO)

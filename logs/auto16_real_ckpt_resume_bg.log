@@ -1,0 +1,8 @@
+Using cache found in /data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+Resumed from /home/lmh/VGM-GS-S4C/checkpoints/ckpt_real_smoke/latest.pt (last_global_step=1)

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/ff_train.py", line 248, in <module>
+    main()
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/ff_train.py", line 88, in main
+    ds = Kitti360Dataset(
+  File "/home/lmh/VGM-GS-S4C/s4c/datasets/kitti_360/kitti_360_dataset.py", line 143, in __init__
+    raise ValueError("Random Fisheye Offset needs to be active for additional random front offset!")
+ValueError: Random Fisheye Offset needs to be active for additional random front offset!
+ERROR conda.cli.main_run:execute(127): `conda run env PYTHONUNBUFFERED=1 CPATH=/home/lmh/anaconda3/envs/vgm-gs-s4c/include CPLUS_INCLUDE_PATH=/home/lmh/anaconda3/envs/vgm-gs-s4c/include python -u -m ssc_gs.ff_train --device cuda --steps 5000 --num_workers 4 --data_fc 3 --additional_random_front_offset --supervise_rgb --sem_lambda 1.0 --ssim_lambda 0.2 --save_every 500 --ckpt_dir checkpoints/ff2d_full_20251228_005525` failed. (See above for error)

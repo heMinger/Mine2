@@ -1,0 +1,53 @@
+AUTO4: starting smoke/train chain
+AUTO4: cache_dir=/data/lmh_data/KITTI360/ssc_gs_pointcloud_cache
+Sat Dec 27 08:06:52 PM CST 2025
+AUTO4: smoke test (1 step, dummy DINO)
+Traceback (most recent call last):
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_backend.py", line 166, in <module>
+    from gsplat import csrc as _C
+ImportError: cannot import name 'csrc' from 'gsplat' (/home/lmh/VGM-GS-S4C/gsplat/gsplat/__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_backend.py", line 79, in load_extension
+    compiled = _jit_compile(
+TypeError: _jit_compile() missing 2 required positional arguments: 'verbose' and 'with_sycl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/lmh/anaconda3/envs/vgm-gs-s4c/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/scripts/smoke_train.py", line 123, in <module>
+    main()
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/scripts/smoke_train.py", line 109, in main
+    stats = train_step(
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/train.py", line 129, in train_step
+    renders = renderer.render(
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/render/gsplat_renderer.py", line 71, in render
+    rgb_img, alpha, meta_rgb = rasterization(
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/rendering.py", line 484, in rasterization
+    proj_results = fully_fused_projection(
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_wrapper.py", line 405, in fully_fused_projection
+    return _FullyFusedProjectionPacked.apply(
+  File "/home/lmh/.local/lib/python3.10/site-packages/torch/autograd/function.py", line 581, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_wrapper.py", line 1607, in forward
+    camera_model_type = _make_lazy_cuda_obj(
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_wrapper.py", line 24, in _make_lazy_cuda_obj
+    from ._backend import _C
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_backend.py", line 217, in <module>
+    _C = load_extension(
+  File "/home/lmh/VGM-GS-S4C/gsplat/gsplat/cuda/_backend.py", line 98, in load_extension
+    compiled = _jit_compile(
+  File "/home/lmh/.local/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2134, in _jit_compile
+    _write_ninja_file_and_build_library(
+  File "/home/lmh/.local/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2244, in _write_ninja_file_and_build_library
+    verify_ninja_availability()
+  File "/home/lmh/.local/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2305, in verify_ninja_availability
+    raise RuntimeError("Ninja is required to load C++ extensions (pip install ninja to get it)")
+RuntimeError: Ninja is required to load C++ extensions (pip install ninja to get it)
+ERROR conda.cli.main_run:execute(127): `conda run python -m ssc_gs.scripts.smoke_train --cache_dir /data/lmh_data/KITTI360/ssc_gs_pointcloud_cache --max_points 50000 --device cuda` failed. (See above for error)

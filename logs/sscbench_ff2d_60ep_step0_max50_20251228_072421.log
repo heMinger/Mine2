@@ -1,0 +1,19 @@
+INFO:root:Loading FF checkpoint: checkpoints/ff2d_60ep_20251228_011025/step_0000000.pt
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+INFO:dinov2:using MLP layer as FFN
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:03<02:49,  3.46s/it]  2%|▏         | 1/50 [00:09<08:00,  9.81s/it]
+Traceback (most recent call last):
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/scripts/evaluate_ff_sscbench.py", line 275, in <module>
+    main()
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/scripts/evaluate_ff_sscbench.py", line 198, in main
+    _sigma_sum, sigma, sem_vox = splat_gaussians_to_voxels_gaussian_kernel(
+  File "/home/lmh/VGM-GS-S4C/ssc_gs/ff/gaussian_to_voxel.py", line 237, in splat_gaussians_to_voxels_gaussian_kernel
+    sem_probs_vox = (sem_acc / denom[:, None]).t()  # (C, N)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 160.00 MiB. GPU 0 has a total capacity of 47.52 GiB of which 83.69 MiB is free. Process 3397421 has 44.73 GiB memory in use. Process 3553770 has 1.08 GiB memory in use. Including non-PyTorch memory, this process has 1.62 GiB memory in use. Of the allocated memory 1.18 GiB is allocated by PyTorch, and 83.87 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+ERROR conda.cli.main_run:execute(127): `conda run python ssc_gs/scripts/evaluate_ff_sscbench.py -ssc /data/lmh_data/sscbench-kitti -vgt /data/lmh_data/KITTI360/s4c_labels -cp checkpoints/ff2d_60ep_20251228_011025/step_0000000.pt --max_samples 50 --voxel_max_radius 3 --sigma_cutoff 0.05` failed. (See above for error)

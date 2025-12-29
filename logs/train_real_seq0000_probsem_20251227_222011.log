@@ -1,0 +1,73 @@
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+step=0 loss=3.4171 photo=0.3277 sem=3.0894
+step=10 loss=1.3171 photo=0.3034 sem=1.0137
+step=20 loss=0.5301 photo=0.2583 sem=0.2718
+step=30 loss=0.4632 photo=0.2286 sem=0.2346
+step=40 loss=0.4040 photo=0.2117 sem=0.1923
+step=50 loss=0.4339 photo=0.2189 sem=0.2150
+step=60 loss=0.6240 photo=0.2347 sem=0.3893
+step=70 loss=0.7683 photo=0.2664 sem=0.5019
+step=80 loss=0.6036 photo=0.2524 sem=0.3512
+step=90 loss=0.7975 photo=0.2494 sem=0.5481
+step=100 loss=0.5631 photo=0.2492 sem=0.3139
+step=110 loss=0.6131 photo=0.2490 sem=0.3640
+step=120 loss=0.5991 photo=0.2494 sem=0.3497
+step=130 loss=0.6691 photo=0.2832 sem=0.3859
+step=140 loss=0.6039 photo=0.2955 sem=0.3084
+step=150 loss=0.6956 photo=0.2800 sem=0.4156
+step=160 loss=0.9601 photo=0.2885 sem=0.6716
+step=170 loss=0.7829 photo=0.3237 sem=0.4593
+step=180 loss=0.9605 photo=0.3360 sem=0.6245
+step=190 loss=0.6801 photo=0.3499 sem=0.3302
+step=200 loss=0.8345 photo=0.3786 sem=0.4559
+step=210 loss=0.8879 photo=0.3673 sem=0.5206
+step=220 loss=1.4947 photo=0.3967 sem=1.0980
+step=230 loss=0.6272 photo=0.3628 sem=0.2644
+step=240 loss=0.5861 photo=0.3884 sem=0.1977
+step=250 loss=1.2349 photo=0.3908 sem=0.8442
+step=260 loss=0.4339 photo=0.3711 sem=0.0628
+step=270 loss=0.6786 photo=0.3854 sem=0.2932
+step=280 loss=0.3912 photo=0.3912 sem=0.0000
+step=290 loss=0.3817 photo=0.3817 sem=0.0000
+step=300 loss=0.3885 photo=0.3885 sem=0.0000
+step=310 loss=0.3784 photo=0.3784 sem=0.0000
+step=320 loss=0.3654 photo=0.3654 sem=0.0000
+step=330 loss=0.3920 photo=0.3920 sem=0.0000
+step=340 loss=0.4276 photo=0.4276 sem=0.0000
+step=350 loss=0.4265 photo=0.4265 sem=0.0000
+step=360 loss=0.3874 photo=0.3874 sem=0.0000
+step=370 loss=0.3639 photo=0.3639 sem=0.0000
+step=380 loss=0.3499 photo=0.3499 sem=0.0000
+step=390 loss=0.4026 photo=0.4026 sem=0.0000
+step=400 loss=0.3631 photo=0.3631 sem=0.0000
+step=410 loss=0.3648 photo=0.3648 sem=0.0000
+step=420 loss=0.3402 photo=0.3402 sem=0.0000
+step=430 loss=0.3623 photo=0.3623 sem=0.0000
+step=440 loss=0.4140 photo=0.4140 sem=0.0000
+step=450 loss=0.3608 photo=0.3608 sem=0.0000
+step=460 loss=0.3539 photo=0.3539 sem=0.0000
+step=470 loss=0.3684 photo=0.3684 sem=0.0000
+step=480 loss=0.3800 photo=0.3800 sem=0.0000
+step=490 loss=0.3805 photo=0.3805 sem=0.0000
+step=500 loss=0.3756 photo=0.3756 sem=0.0000
+step=510 loss=0.3913 photo=0.3913 sem=0.0000
+step=520 loss=0.3412 photo=0.3412 sem=0.0000
+step=530 loss=0.3635 photo=0.3635 sem=0.0000
+step=540 loss=0.3430 photo=0.3430 sem=0.0000
+step=550 loss=0.3652 photo=0.3652 sem=0.0000
+step=560 loss=0.3706 photo=0.3706 sem=0.0000
+step=570 loss=0.3528 photo=0.3528 sem=0.0000
+step=580 loss=0.3534 photo=0.3534 sem=0.0000
+step=590 loss=0.3678 photo=0.3678 sem=0.0000
+step=600 loss=0.3517 photo=0.3517 sem=0.0000
+step=610 loss=0.3410 photo=0.3410 sem=0.0000
+step=620 loss=0.3617 photo=0.3617 sem=0.0000
+step=630 loss=0.3436 photo=0.3436 sem=0.0000
+step=640 loss=0.3421 photo=0.3421 sem=0.0000
+step=650 loss=0.3980 photo=0.3980 sem=0.0000

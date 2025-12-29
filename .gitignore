@@ -1,0 +1,13 @@
+# 忽略所有数据文件夹
+2013_05_28_drive_*
+data/
+datasets/
+output/
+__pycache__/
+*.pth
+*.jpg
+*.png
+checkpoints/
+*.pt
+checkpoints/
+*.pt

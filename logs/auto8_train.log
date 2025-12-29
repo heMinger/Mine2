@@ -1,0 +1,5 @@
+AUTO8: smoke via /data/lmh symlink + long train (1000 steps)
+Sat Dec 27 08:15:55 PM CST 2025
+AUTO8: smoke test using symlink path
+smoke_train: PASS {'loss': 3.3265316486358643, 'loss_photo': 0.33179813623428345, 'loss_sem': 2.9947335720062256, 'H': 192, 'W': 640}
+AUTO8: long run (1000 steps, dummy DINO)

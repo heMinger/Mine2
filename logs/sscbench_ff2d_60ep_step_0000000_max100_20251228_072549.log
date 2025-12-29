@@ -1,0 +1,2 @@
+INFO:root:Loading FF checkpoint: checkpoints/ff2d_60ep_20251228_011025/step_0000000.pt
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main

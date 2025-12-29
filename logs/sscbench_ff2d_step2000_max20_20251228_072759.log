@@ -1,0 +1,13 @@
+INFO:root:Loading FF checkpoint: checkpoints/ff2d_60ep_20251228_011025/step_0002000.pt
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+INFO:dinov2:using MLP layer as FFN
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:42,  5.42s/it] 10%|█         | 2/20 [00:10<01:34,  5.24s/it] 15%|█▌        | 3/20 [00:15<01:26,  5.08s/it] 20%|██        | 4/20 [00:20<01:20,  5.01s/it] 25%|██▌       | 5/20 [00:24<01:10,  4.73s/it] 30%|███       | 6/20 [00:29<01:08,  4.86s/it] 35%|███▌      | 7/20 [00:34<01:03,  4.90s/it] 40%|████      | 8/20 [00:39<00:58,  4.85s/it] 45%|████▌     | 9/20 [00:44<00:53,  4.83s/it] 50%|█████     | 10/20 [00:48<00:47,  4.78s/it] 55%|█████▌    | 11/20 [00:53<00:42,  4.77s/it] 60%|██████    | 12/20 [00:57<00:36,  4.56s/it] 65%|██████▌   | 13/20 [01:02<00:32,  4.65s/it] 70%|███████   | 14/20 [01:07<00:28,  4.67s/it] 75%|███████▌  | 15/20 [01:12<00:23,  4.74s/it] 80%|████████  | 16/20 [01:17<00:19,  4.78s/it] 85%|████████▌ | 17/20 [01:21<00:14,  4.82s/it] 90%|█████████ | 18/20 [01:26<00:09,  4.88s/it] 95%|█████████▌| 19/20 [01:31<00:04,  4.82s/it]100%|██████████| 20/20 [01:36<00:00,  4.90s/it]100%|██████████| 20/20 [01:36<00:00,  4.84s/it]
+size=12.8m occ_iou=0.0181 tp=2103 fp=12165 fn=101930
+size=25.6m occ_iou=0.0273 tp=16621 fp=68521 fn=524123
+size=51.2m occ_iou=0.0309 tp=46677 fp=163800 fn=1299796

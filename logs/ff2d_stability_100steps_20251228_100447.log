@@ -1,0 +1,18 @@
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+W1228 10:04:54.516000 3628063 torch/fx/_symbolic_trace.py:52] is_fx_tracing will return true for both fx.symbolic_trace and torch.export. Please use is_fx_tracing_symbolic_tracing() for specifically fx.symbolic_trace or torch.compiler.is_compiling() for specifically torch.export/compile.
+epoch=0 step=0 loss=3.4392 photo=0.2716 sem=3.1673 smooth=0.0302 voxel_reg=0.6521 sup_views=5
+epoch=0 step=10 loss=1.9465 photo=0.2721 sem=1.6741 smooth=0.0256 voxel_reg=0.6297 sup_views=5
+epoch=0 step=20 loss=1.2828 photo=0.2359 sem=1.0466 smooth=0.0308 voxel_reg=0.6393 sup_views=5
+epoch=0 step=30 loss=0.7737 photo=0.1994 sem=0.5739 smooth=0.0332 voxel_reg=0.6352 sup_views=5
+epoch=0 step=40 loss=0.5093 photo=0.1813 sem=0.3276 smooth=0.0349 voxel_reg=0.6263 sup_views=5
+epoch=0 step=50 loss=0.4519 photo=0.1821 sem=0.2694 smooth=0.0387 voxel_reg=0.6257 sup_views=5
+epoch=1 step=60 loss=1.1958 photo=0.2282 sem=0.9673 smooth=0.0340 voxel_reg=0.5899 sup_views=5
+epoch=1 step=70 loss=0.8082 photo=0.2043 sem=0.6036 smooth=0.0325 voxel_reg=0.6197 sup_views=5
+epoch=1 step=80 loss=0.5506 photo=0.1894 sem=0.3607 smooth=0.0478 voxel_reg=0.6002 sup_views=5
+epoch=1 step=90 loss=0.4609 photo=0.1643 sem=0.2963 smooth=0.0422 voxel_reg=0.5805 sup_views=5

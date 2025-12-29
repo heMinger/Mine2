@@ -1,0 +1,13 @@
+nohup: ignoring input
+Using cache found in /data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/data/lmh_data/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+step=0 loss=3.3538 photo=0.3580 sem=2.9957
+step=10 loss=3.3692 photo=0.3735 sem=2.9957
+step=20 loss=3.3756 photo=0.3799 sem=2.9957
+step=30 loss=3.3686 photo=0.3729 sem=2.9957
+step=40 loss=3.3699 photo=0.3740 sem=2.9959

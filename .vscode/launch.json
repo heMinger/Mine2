@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: MapAnything vs SSC pseudoGT (seq0 frame0)",
+      "type": "python",
+      "request": "launch",
+      "module": "ssc_gs.scripts.debug_mapanything_vs_ssc_gt_depth",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [
+        "--ssc_root",
+        "/data/lmh_data/sscbench-kitti",
+        "--voxel_gt_path",
+        "/data/lmh_data/sscbench-kitti/preprocess/labels",
+        "--pose_root",
+        "/data/lmh_data/KITTI360/poses",
+        "--seq_id",
+        "0",
+        "--frame_id",
+        "0",
+        "--pose_source",
+        "cam0_to_world",
+        "--hf_model_name",
+        "/home/lmh/VGM-GS-S4C/map-anything/ckpt/map-anything",
+        "--local_files_only"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Train: FF Scene Model (MapAnything Init)",
+      "type": "python",
+      "request": "launch",
+      "module": "ssc_gs.ff_train",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [
+        "--kitti360_data_path",
+        "/data/lmh_data/KITTI360",
+        "--kitti360_pose_path",
+        "/data/lmh_data/KITTI360/poses",
+        "--pseudo_seg_path",
+        "/data/lmh_data/KITTI360/panoptic_deeplab_R101_os32_cityscapes_hr",
+        "--mapanything_hf_model_name",
+        "/home/lmh/VGM-GS-S4C/map-anything/ckpt/map-anything",
+        "--mapanything_local_files_only",
+        "--steps",
+        "100",
+        "--log_every",
+        "1",
+        "--batch_size",
+        "1"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}

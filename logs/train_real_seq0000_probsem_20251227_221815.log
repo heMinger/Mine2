@@ -1,0 +1,17 @@
+Using cache found in /home/lmh/.cache/torch/hub/facebookresearch_dinov2_main
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/lmh/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+step=0 loss=3.2147 photo=0.3276 sem=2.8871
+step=10 loss=1.3864 photo=0.2969 sem=1.0895
+step=20 loss=0.5594 photo=0.2597 sem=0.2997
+step=30 loss=0.4720 photo=0.2385 sem=0.2334
+step=40 loss=0.4391 photo=0.2202 sem=0.2190
+step=50 loss=0.4660 photo=0.2185 sem=0.2476
+step=60 loss=0.6259 photo=0.2318 sem=0.3941
+step=70 loss=0.6652 photo=0.2560 sem=0.4092
+step=80 loss=0.5593 photo=0.2471 sem=0.3123
+step=90 loss=0.7680 photo=0.2508 sem=0.5172
